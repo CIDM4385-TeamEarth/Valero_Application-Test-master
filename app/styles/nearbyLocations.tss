@@ -1,0 +1,46 @@
+//Kristi, Jake, Keith, Jasen
+
+"#container": {
+	backgroundColor:"white",
+	backgroundImage: "/images/default.9.png",
+ 	
+ }
+ 	
+"Label": {
+	width: Ti.UI.SIZE,
+	height: '200px',
+	color: "#000"
+}
+
+	".mapButton": {
+	bottom:20,
+	backgroundColor:"#006699",
+}
+
+"#label": {
+	width: Titanium.UI.FILL,
+	height: '150px',
+	backgroundColor: "#006699",
+
+	color: 'white',
+	font: {
+		fontSize: 20,
+		fontFamily: 'Helvetica',
+		fontWeight: 'bold',
+	}
+}
+"#milePicker": {
+	backgroundColor:"#006699",
+	top: 0,
+	width: Titanium.UI.FILL,
+	height: '200px',
+	font: {
+		textAlign: "center"
+	}
+
+}
+"#cityPicker": {
+	backgroundColor:"#006699",
+	top: 50,
+	width: Titanium.UI.FILL
+}

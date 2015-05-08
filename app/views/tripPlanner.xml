@@ -1,0 +1,11 @@
+<Alloy>
+	<Window class="container" title="Trip Planner">
+		<Menu platform="android">
+			<MenuItem id="label" title="Home" onClick="index"></MenuItem>
+			<MenuItem id ="label" title="Nearby Locations" onClick="nearbyLocations"></MenuItem>
+			<MenuItem id="label" title="Store Locations" onClick="storeLocations"></MenuItem>
+			</Menu>
+		<Label id="label" top="0" textAlign="center">Search box goes here:</Label>
+	
+	</Window>
+</Alloy>

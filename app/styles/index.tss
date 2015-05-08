@@ -1,0 +1,29 @@
+".container": {
+	backgroundColor:"white",
+	backgroundImage: "/images/default.9.png",
+ 	
+ }
+ 	
+"Label": {
+	width: Ti.UI.SIZE,
+	height: Ti.UI.SIZE,
+	color: "#006699"
+}
+
+"#label": {
+	width: Titanium.UI.FILL,
+	height: '150px',
+	backgroundColor: "#000",
+
+	color: 'white',
+	font: {
+		fontSize: 20,
+		fontFamily: 'Helvetica',
+		fontWeight: 'bold',
+	}
+}
+
+".menu": {
+	backgroundColor: "#00ff00",
+	color: "#860506"
+}

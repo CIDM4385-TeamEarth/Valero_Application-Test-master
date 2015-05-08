@@ -1,0 +1,23 @@
+<Alloy>
+	<Window id="container" title="Store Locations">
+		<Menu platform="android">
+			<MenuItem id="label" title="Home" onClick="index"></MenuItem>
+			<MenuItem id ="label" title="Nearby Locations" onClick="nearbyLocations"></MenuItem>
+			<MenuItem id="label" title="Trip Planner" onClick="tripPlanner"></MenuItem>
+			</Menu>
+			
+		<Picker id="statePicker" >
+			<PickerColumn title="State" >
+			</PickerColumn>
+		</Picker>
+		
+		<Picker id="cityPicker">
+			<PickerColumn title="City">
+				<PickerRow title="City"></PickerRow>
+			</PickerColumn>
+		</Picker>
+		<!-- <Window id="win"></Window> -->
+		<!--button that opens map - Nhat,Ez  -->
+	<Button class="mapButton" onClick="acs">Map</Button>
+	</Window>
+</Alloy>

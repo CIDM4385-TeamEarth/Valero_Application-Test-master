@@ -1,0 +1,16 @@
+<Alloy>
+	<Window id="container" title="Nearby Locations">
+		
+		<Menu platform="android">
+			<MenuItem id="label" title="Home" onClick="index"></MenuItem>
+			<MenuItem id ="label" title="Store Locations" onClick="storeLocations"></MenuItem>
+			<MenuItem id="label" title="Trip Planner" onClick="tripPlanner"></MenuItem>
+		</Menu>
+		
+		<Picker id="milePicker" title="Filter by Miles:">
+			<PickerColumn title="Mile" >
+			</PickerColumn>
+		</Picker>
+
+	</Window>
+</Alloy>
